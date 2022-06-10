@@ -1,0 +1,20 @@
+{
+  "name": "playwright-test-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "firefox": "playwright test --project=firefox",
+    "chrome": "playwright test --project=chromium",
+    "test-h": "playwright test --headed",
+    "firefox-h": "playwright test --project=firefox --headed",
+    "chrome-h": "playwright test --project=chromium --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
